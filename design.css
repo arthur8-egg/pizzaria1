@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+html{
+    background-color:#F5E3C0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+.menu, h1 {
+    padding: 10px; 
+    margin: 0;
+}
+.menu, li{
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu, a{
+    padding: 15px;
+    text-decoration: none;
+    color: #4b4b4b;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+.menu, a :hover{
+    background-color:  #A8E6CF 
+}
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.jose{
+    
+    text-align: center;
+}
+table {
+    margin: auto; /* Centraliza a tabela */
+    border-collapse: collapse; /* Remove espaços entre células */
+    width: 80%; /* Define a largura da tabela */
+    background-color: #F5F5DC; /* Cor de fundo */
+}
+th, td {
+    border: 1px solid #ccc; /* Adiciona borda às células */
+    padding: 10px; /* Adiciona espaço interno */
+    text-align: center; /* Centraliza o texto */
+}
+th {
+    background-color: #FFABAB; /* Cor do cabeçalho */
+}
+.estilo{
+    display: flex; flex-direction: column; width: 100%;
+}
